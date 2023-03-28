@@ -1,0 +1,49 @@
+@charset"UTF-8";
+@font-face {
+    font-family: 'font1';
+    src: url('font/Always\ Smile.otf') format('OpenType');
+}
+
+@font-face {
+    font-family: 'font2';
+    src: url('font/Saudagar.ttf') format('TrueType');
+}
+
+:root {
+    --cor1: #1720FD;
+    --cor2:#1453E3;
+    --cor3:#239DFA;
+    --cor4:#14C0E3;
+    --cor5:#17FDE6;
+}
+
+body{
+    margin: 0px;
+    background-color: #ffffff;
+}
+
+header{
+    background-image: linear-gradient(to right, var(--cor1), var(--cor5));
+    color: white;
+    font: normal 60px 'font1', Georgia, Times, serif;
+    padding: 10px;
+}
+
+p{
+    text-align: center;
+    text-indent: 50px;
+    padding: 0px;
+    margin: 0px;
+}
+
+main{
+    font: normal 25px 'font2', Arial, sans-serif;
+    padding: 20px;
+    margin: auto;
+    max-width: 700px;
+    min-width: 300px;
+    background-color: var(--cor4);
+    margin-top: 20px;
+    color: #ffffff;
+    border-radius: 20px 0px;
+}

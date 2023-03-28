@@ -38,12 +38,42 @@ p{
 
 main{
     font: normal 25px 'font2', Arial, sans-serif;
-    padding: 20px;
     margin: auto;
-    max-width: 700px;
+    max-width: 100%;
     min-width: 300px;
+    color: #ffffff; 
+}
+
+main > p {
     background-color: var(--cor4);
     margin-top: 20px;
-    color: #ffffff;
     border-radius: 20px 0px;
+    padding: 20px;
+    max-width: 700px;
+    min-width: 300px;
+    margin: 20px auto;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.432);
+}
+
+.square{
+    width: 250px;
+    height: 50px;
+    background-color: var(--cor3);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.432);
+}
+
+.square:hover{
+    width: 350px;
+    transition-duration: 1s;
+}
+
+a{
+    text-decoration: none;
+    font: normal 20px 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    text-align: justify;
+
 }

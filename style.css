@@ -79,7 +79,7 @@ a{
 }
 
 nav{
-    background: #ffffff url('img/background01r.jpg') bottom center no-repeat fixed;
+    background: #ffffff url('img/background01r.jpg') bottom center no-repeat scroll;
     background-size: cover;
     padding: 70px 30px;
     margin: auto;

@@ -34,6 +34,7 @@ p{
     text-indent: 50px;
     padding: 0px;
     margin: 0px;
+    text-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.411);
 }
 
 main{
@@ -52,17 +53,17 @@ main > p {
     max-width: 700px;
     min-width: 300px;
     margin: 20px auto;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.432);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.445);
 }
 
 .square{
     width: 250px;
     height: 40px;
     background-color: var(--cor3);
-    margin: 10px auto 10px auto;
+    margin: 30px auto 30px auto;
     padding: 10px;
     border-radius: 20px;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.432);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.349);
 }
 
 .square:hover{
@@ -75,14 +76,16 @@ a{
     font: normal 20px 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #ffffff;
     text-align: justify;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.555);
 
 }
 
 nav{
-    background: #ffffff url('img/background01r.jpg') bottom center no-repeat scroll;
+    background: #ffffff url('img/background01r.jpg') bottom center no-repeat fixed;
     background-size: cover;
     padding: 70px 30px;
     margin: auto;
+    text-align: center;
 }
 
 footer{
